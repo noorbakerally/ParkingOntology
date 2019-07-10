@@ -21,12 +21,12 @@
 ###################
 :  a  owl:Ontology;
     cc:license <http://creativecommons.org/licenses/publicdomain/zero/1.0/>;
-    dc:creator  <http://zimmer.aprilfoolsreview.com/antoine#me>, <http://nooranibakerally.com/#me>;
+    dc:creator  <http://zimmer.aprilfoolsreview.com/antoine#me>, <http://nooranibakerally.com/#me> ;
     dc:description  "This is an ontology for parking spaces."@en, ""@fr;
     dc:issued  "2015-12-09T10:42:42+01:00"^^xsd:dateTime;
     dc:modified "2015-12-14T15:45:42+01:00"^^xsd:dateTime;
     rdfs:comment  "This ontology reuses terms from other existing ontologies, but does not import them."@en, ""@fr;
-    rdfs:label  "parking ontology"@en, "ontologie des parkings"@fr;
+    rdfs:label  "parking ontology"@en, "ontologie des parkings"@fr .
     
 ####################
 # Annotation properties #
@@ -191,3 +191,4 @@ topo:ElementReseauRoutier  a  owl:Class .
 ############
 <http://zimmer.aprilfoolsreview.com/antoine#me>  a  foaf:Person .
 <http://nooranibakerally.com/#me>  a  foaf:Person .
+

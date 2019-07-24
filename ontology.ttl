@@ -3,7 +3,7 @@
 # http://strasmap.eu/remote.amf.json/Parking.geometry
 # 
 
-@prefix :     <> .
+@prefix :     <http://opensensingcity.emse.fr/> .
 @prefix cc:   <http://creativecommons.org/ns#> .
 @prefix dc:   <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
